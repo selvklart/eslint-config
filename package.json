@@ -1,0 +1,18 @@
+{
+  "name": "@escio/eslint-config-escio",
+  "version": "1.0.0",
+  "description": "Eslint config used internally at Escio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
