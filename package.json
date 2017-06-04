@@ -6,12 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/escio/eslint-config-escio.git"
+  },
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
   "author": "",
   "license": "ISC",
+  "homepage": "https://bitbucket.org/escio/eslint-config-escio#readme",
   "peerDependencies": {
     "eslint": ">= 3"
   }
