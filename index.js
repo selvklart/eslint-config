@@ -52,7 +52,7 @@ module.exports = {
 		"id-blacklist": "off",
 		"id-length": "off",
 		"id-match": "off",
-		"indent": ["warn", "tab"],
+		"indent": ["warn", "tab", {"SwitchCase": 1}],
 		"indent-legacy": "off",
 		"init-declarations": "off",
 		"jsx-quotes": "off",
