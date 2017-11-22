@@ -61,9 +61,7 @@ module.exports = {
 			"beforeColon": false,
 			"mode": "strict"
 		}],
-		"keyword-spacing": ["error", {
-			"before": true
-		}],
+		"keyword-spacing": "error",
 		"line-comment-position": "off",
 		"linebreak-style": ["error", "unix"],
 		"lines-around-comment": "off",
