@@ -13,5 +13,4 @@ pipelines:
           - git config --global user.email abo@escio.no
           - git config --global push.default simple
           - echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
-		  - npm test
           - npm run release
