@@ -1,0 +1,17 @@
+image: node:8.10.0
+
+pipelines:
+  branches:
+    master:
+      - step:
+          caches:
+            - node
+          script:
+          - npm i -g conventional-changelog-cli
+          - npm i
+          - git config --global user.name "Pipelines"
+          - git config --global user.email abo@escio.no
+          - git config --global push.default simple
+          - echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
+		  - npm test
+          - npm run release
