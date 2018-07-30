@@ -15,7 +15,6 @@ module.exports = {
 		sourceType: 'module'
 	},
 	rules: {
-		"react/prop-types": 0,
 		"babel/semi": 1,
 		"semi": 0
 	},
