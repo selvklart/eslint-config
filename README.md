@@ -9,9 +9,16 @@
 $ npm install --save-dev eslint @escio/eslint-config-escio
 ```
 
-
 ## Usage
 
+### React
+```js
+{
+  "extends": "@escio/eslint-config-escio/react",
+}
+```
+
+### Other projects
 Once the `@escio/eslint-config-escio` package is installed, you can use it by specifying `@escio/eslint-config-escio` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
 ```js
