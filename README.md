@@ -1,12 +1,12 @@
-# @escio/eslint-config-escio
+# @selvklart/eslint-config
 
-> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) used internally at Norwegian company Escio AS.
+> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) used internally at Norwegian company Selvklart AS.
 
 
 ## Installation
 
 ```
-$ npm install --save-dev eslint @escio/eslint-config-escio
+$ npm install --save-dev eslint @selvklart/eslint-config
 ```
 
 ## Usage
@@ -14,16 +14,16 @@ $ npm install --save-dev eslint @escio/eslint-config-escio
 ### React
 ```js
 {
-  "extends": "@escio/eslint-config-escio/react",
+  "extends": "@selvklart/eslint-config/react",
 }
 ```
 
 ### Other projects
-Once the `@escio/eslint-config-escio` package is installed, you can use it by specifying `@escio/eslint-config-escio` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
+Once the `@selvklart/eslint-config` package is installed, you can use it by specifying `@selvklart/eslint-config` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
 ```js
 {
-  "extends": "@escio/eslint-config-escio",
+  "extends": "@selvklart/eslint-config",
   "rules": {
     // Additional, per-project rules...
   }
@@ -32,4 +32,4 @@ Once the `@escio/eslint-config-escio` package is installed, you can use it by sp
 
 ## License
 
-ISC © Escio AS
+ISC © Selvklart AS

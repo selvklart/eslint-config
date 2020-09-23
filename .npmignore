@@ -1,4 +1,2 @@
 .npmrc
 .editorconfig
-.release-it.json
-bitbucket-pipelines.yml

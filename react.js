@@ -2,7 +2,7 @@ const rules = require('./index');
 
 module.exports = {
 	extends: [
-		'@escio/eslint-config-escio',
+		'@selvklart/eslint-config',
 		'plugin:react/recommended'
 	],
 	parser: "babel-eslint",

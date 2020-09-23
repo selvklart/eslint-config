@@ -1,16 +1,14 @@
 {
-  "name": "@escio/eslint-config-escio",
-  "version": "1.1.0",
-  "description": "Eslint config used internally at Escio.",
+  "name": "@selvklart/eslint-config",
+  "version": "1.1.1",
+  "description": "Eslint config used internally at Selvklart.",
   "main": "index.js",
   "scripts": {
-    "commitmsg": "validate-commit-msg",
-    "test": "echo \"NO TEST RUNNING..\" && exit 0",
-    "release": "release-it"
+    "test": "echo \"NO TEST RUNNING..\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/escio/eslint-config-escio.git"
+    "url": "git@github.com:selvklart/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -18,39 +16,9 @@
   ],
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/escio/eslint-config-escio#readme",
+  "homepage": "https://github.com/selvklart/eslint-config",
   "peerDependencies": {
     "eslint": ">= 3"
   },
-  "devDependencies": {
-    "cz-conventional-changelog": "^2.1.0",
-    "husky": "^0.14.3",
-    "release-it": "^7.4.8",
-    "validate-commit-msg": "^2.14.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    },
-    "validate-commit-msg": {
-      "types": [
-        "feat",
-        "fix",
-        "docs",
-        "style",
-        "refactor",
-        "perf",
-        "test",
-        "build",
-        "ci",
-        "chore",
-        "revert"
-      ],
-      "warnOnFail": false,
-      "maxSubjectLength": 100,
-      "subjectPattern": ".+",
-      "subjectPatternErrorMsg": "Use 'git cz', not 'git commit'",
-      "helpMessage": "Use 'git cz', not 'git commit'"
-    }
-  }
+  "devDependencies": {}
 }
