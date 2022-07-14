@@ -8,6 +8,18 @@
 npm install --save-dev eslint @selvklart/eslint-config
 ```
 
+## Folder structure
+
+### index.js
+Base ESLint configuration for just JS. Use one of the presets if you want a more extensive coverage.
+
+### rules/
+Collections of curated rulesets for ESLint plugins that are useful for Selvklart.
+
+### presets/
+Combinations of multiple ESLint plugins and their configurations so they work together.
+Use the one that better applies to your project, or create a new one and make a pull request.
+
 ## Usage
 
 ### React

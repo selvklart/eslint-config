@@ -1,5 +1,5 @@
 export default {
 	extends: [
-		'./presets/js.eslintrc.js'
+		'../config/.eslintrc.js'
 	]
 };
