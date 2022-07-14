@@ -1,5 +1,5 @@
 export default {
 	extends: [
-		'../config/.eslintrc.js'
+		'../rules/.eslintrc.js'
 	]
 };
