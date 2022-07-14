@@ -18,7 +18,15 @@
   "license": "ISC",
   "homepage": "https://github.com/selvklart/eslint-config",
   "peerDependencies": {
-    "eslint": "^8.19.0"
+    "eslint": "^8.19.0",
+		"eslint-plugin-import": "^2.25.2",
+		"@typescript-eslint/eslint-plugin": "^5.30.6",
+		"@typescript-eslint/parser": "^5.30.6",
+    "eslint-import-resolver-typescript": "^3.2.5"
   },
-  "devDependencies": {}
+  "peerDependenciesMeta": {
+    "@typescript-eslint/eslint-plugin": {"optional": true},
+    "@typescript-eslint/parser": {"optional": true},
+    "eslint-import-resolver-typescript": {"optional": true}
+  }
 }
