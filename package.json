@@ -18,7 +18,7 @@
   "license": "ISC",
   "homepage": "https://github.com/selvklart/eslint-config",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": "^8.19.0"
   },
   "devDependencies": {}
 }
