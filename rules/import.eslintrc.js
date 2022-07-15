@@ -1,7 +1,7 @@
 const error = process.env.NODE_ENV === 'production' ? 'error' : 'warn';
 
 export default {
-	// https://github.com/import-js/eslint-plugin-import @ 2.25.2
+	// https://github.com/import-js/eslint-plugin-import @ v2.25.2
 	plugins: ['import'],
 	rules: {
 		'import/no-unresolved': error, // Ensure imports point to a file/module that can be resolved.
@@ -33,7 +33,7 @@ export default {
 		'import/first': error, // Ensure all imports appear before other statements
 		'import/exports-last': error, // Ensure all exports appear after other statements
 		'import/no-duplicates': error, // Report repeated import of the same module in multiple places
-		'import/no-namespace': error, // Forbid namespace (a.k.a. "wildcard" *) imports
+		'import/no-namespace': error, // Forbid namespace (a.k.a. 'wildcard' *) imports
 		'import/extensions': [error, 'never'], // Ensure consistent use of file extension within the import path
 		'import/order': [error, { // Enforce a convention in module import order
 			'groups': ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'object', 'type'],

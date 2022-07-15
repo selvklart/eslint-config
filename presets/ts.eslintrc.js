@@ -16,9 +16,9 @@ export default {
 		},
 		'import/resolver': {
 			'typescript': {
-			  'alwaysTryTypes': true,	  
-			  // if your tsconfig.json isn't in <root>/tsconfig.json, override this in your .eslintrc
-			  // 'project': 'path/to/folder'
+				'alwaysTryTypes': true,	  
+				// if your tsconfig.json isn't in <root>/tsconfig.json, override this in your .eslintrc
+				// 'project': 'path/to/folder'
 			}
 		  }
 	}
