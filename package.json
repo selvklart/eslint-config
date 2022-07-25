@@ -28,7 +28,8 @@
     "prettier": "^2.7.1",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-rxjs": "^5.0.2",
-    "eslint-plugin-rxjs-angular": "^2.0.0"
+    "eslint-plugin-rxjs-angular": "^2.0.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0"
   },
   "peerDependenciesMeta": {
     "@typescript-eslint/eslint-plugin": {"optional": true},
@@ -39,6 +40,7 @@
     "prettier": {"optional": true},
     "eslint-plugin-prettier": {"optional": true},
     "eslint-plugin-rxjs": {"optional": true},
-    "eslint-plugin-rxjs-angular": {"optional": true}
+    "eslint-plugin-rxjs-angular": {"optional": true},
+    "eslint-plugin-jsx-a11y": {"optional": true}
   }
 }
