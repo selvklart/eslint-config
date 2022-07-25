@@ -1,7 +1,7 @@
 const error = process.env.NODE_ENV === 'production' ? 'error' : 'warn';
 
 export default {
-	/* https://github.com/angular-eslint/angular-eslint */
+	/* https://github.com/angular-eslint/angular-eslint @ 14.0.2  */
 	rules: {
 		// eslint-plugin
 		'@angular-eslint/component-class-suffix': error, // Classes decorated with @Component must have suffix 'Component' (or custom) in their name
