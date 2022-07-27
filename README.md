@@ -22,26 +22,33 @@ Use the one that better applies to your project, or create a new one and make a 
 
 ## Usage
 
-### React
+Once the `@selvklart/eslint-config` package is installed, you can use it by specifying `@selvklart/eslint-config` + the relevant preset in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
 ```js
 {
-  "extends": "@selvklart/eslint-config/react",
-}
-```
-
-### Other projects
-
-Once the `@selvklart/eslint-config` package is installed, you can use it by specifying `@selvklart/eslint-config` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
-
-```js
-{
-  "extends": "@selvklart/eslint-config",
+  "extends": "@selvklart/eslint-config/presets/react",
   "rules": {
     // Additional, per-project rules...
   }
 }
 ```
+
+You can also mix and match rules depending on your use case.
+
+```js
+{
+  "extends": [
+    "@selvklart/eslint-config/rules/.eslintrc",
+    "@selvklart/eslint-config/rules/react.eslintrc",
+    "@selvklart/eslint-config/rules/react-hooks.eslintrc",
+  ],
+  "rules": {
+    // Additional, per-project rules...
+  }
+}
+```
+
+**Note**: You need to install the peer dependencies relative to the specific ruleset you're using. Peer dependencies can be found in the `package.json` and on top of the presets/ files.
 
 ## Deployment
 
