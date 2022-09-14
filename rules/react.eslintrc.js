@@ -1,6 +1,6 @@
 const error = process.env.NODE_ENV === 'production' ? 'error' : 'warn';
 
-export default {
+module.exports = {
 	// https://github.com/jsx-eslint/eslint-plugin-react @ v7.30.1
 	plugins: ['react'],
 	parserOptions: {

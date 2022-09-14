@@ -1,6 +1,6 @@
 const error = process.env.NODE_ENV === 'production' ? 'error' : 'warn';
 
-export default {
+module.exports = {
 	// https://github.com/import-js/eslint-plugin-import @ v2.25.2
 	plugins: ['import'],
 	rules: {

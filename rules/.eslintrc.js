@@ -1,6 +1,6 @@
 const error = process.env.NODE_ENV === 'production' ? 'error' : 'warn';
 
-export default {
+module.exports = {
 	// https://github.com/eslint/eslint @ v8.19.0
 	rules: {
 		// Possible Problems

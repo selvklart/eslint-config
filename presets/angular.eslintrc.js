@@ -9,7 +9,7 @@
 
 // If having problems linting templates
 // https://github.com/angular-eslint/angular-eslint#linting-html-files-and-inline-templates-with-the-vscode-extension-for-eslint
-export default {
+module.exports = {
 	extends: [
 		'./ts.eslintrc.js',
 		'./rules/rxjs.eslintrc.js',

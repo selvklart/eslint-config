@@ -1,6 +1,6 @@
 const error = process.env.NODE_ENV === 'production' ? 'error' : 'warn';
 
-export default {
+module.exports = {
 	// https://github.com/jsx-eslint/eslint-plugin-jsx-a11y @ v6.6.0
 	plugins: ['jsx-a11y'],
 	rules: {

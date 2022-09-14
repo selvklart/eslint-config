@@ -1,6 +1,6 @@
 const error = process.env.NODE_ENV === 'production' ? 'error' : 'warn';
 
-export default {
+module.exports = {
 	// https://github.com/typescript-eslint/typescript-eslint @ v5.30.6
 	root: true,
 	parser: '@typescript-eslint/parser',

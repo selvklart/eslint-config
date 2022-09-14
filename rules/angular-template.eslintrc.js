@@ -1,6 +1,6 @@
 const error = process.env.NODE_ENV === 'production' ? 'error' : 'warn';
 
-export default {
+module.exports = {
 	/* https://github.com/angular-eslint/angular-eslint @ 14.0.2 */
 	rules: {
 		// eslint-plugin-template

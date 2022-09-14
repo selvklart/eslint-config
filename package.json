@@ -3,9 +3,6 @@
   "version": "2.0.0-beta.0",
   "description": "Eslint config used internally at Selvklart.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"NO TEST RUNNING..\" && exit 0"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:selvklart/eslint-config.git"

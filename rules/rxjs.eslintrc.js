@@ -1,6 +1,6 @@
 const error = process.env.NODE_ENV === 'production' ? 'error' : 'warn';
 
-export default {
+module.exports = {
 	/* https://github.com/cartant/eslint-plugin-rxjs @ 5.0.2 */
 	plugins: ['rxjs'],
 	rules: {

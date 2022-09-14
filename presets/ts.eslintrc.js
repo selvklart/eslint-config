@@ -5,7 +5,7 @@
 // - @typescript-eslint/eslint-plugin
 // - @typescript-eslint/parser
 // - eslint-import-resolver-typescript
-export default {
+module.exports = {
 	extends: [
 		'./js.eslintrc.js',
 		'../rules/ts.eslintrc.js'
